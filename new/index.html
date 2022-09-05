@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock || By Code Info</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <ul id="clock">
+        <li class="numbers"><span>1</span></li>
+        <li class="numbers"><span>2</span></li>
+        <li class="numbers"><span>3</span></li>
+        <li class="numbers"><span>4</span></li>
+        <li class="numbers"><span>5</span></li>
+        <li class="numbers"><span>6</span></li>
+        <li class="numbers"><span>7</span></li>
+        <li class="numbers"><span>8</span></li>
+        <li class="numbers"><span>9</span></li>
+        <li class="numbers"><span>10</span></li>
+        <li class="numbers"><span>11</span></li>
+        <li class="numbers"><span>12</span></li>
+        <li id="hour"></li>
+        <li id="minute"></li>
+        <li id="second"></li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+<!--------Calender Code--------->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body onload="startTime()">
+        <div class="container">
+          <div class="card">
+            <div class="front">
+              <div class="contentfront">
+                <div class="month">
+                  <div class="calendar-ui">
+                     <button class="month-undo"><i class="fa fa-undo"></i></button>
+                    
+                    <button class="prev-month"><i class="fa fa-angle-left"></i></button>
+                    
+                    <span class="picked-month"></span>
+                    <span class="picked-year"></span>
+                    <button class="next-month"><i class="fa fa-angle-right"></i></button>
+                  </div>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>S</th>
+                        <th>M</th>
+                        <th>T</th>
+                        <th>W</th>
+                        <th>T</th>
+                        <th>F</th>
+                        <th>S</th>
+                      </tr>
+                    </thead>
+                    <tbody id="calendarBody">
+                    </tbody>
+                  </table>
+                </div>
+                <div class="date">
+                  <div class="datecont">
+                    <div id="date"></div>
+                    <div id="day"></div>
+                    <div id="month"></div>
+                    <i class="fa fa-pencil edit" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="back">
+              <div class="contentback">
+                <div class="backcontainer">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>  
+</html>
+
